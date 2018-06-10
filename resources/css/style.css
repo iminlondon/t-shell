@@ -1,0 +1,21 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 30em;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
