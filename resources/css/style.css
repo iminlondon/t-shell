@@ -1,6 +1,7 @@
 html {
   font-size: 18px;
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica;
+
 }
 
 /*HEADER*/
@@ -102,7 +103,32 @@ margin-right: -2rem;
   height: auto;
 }
 
-div {
+.description {
   display: block;
   text-align: center;
+}
+
+/*BUSINESS INFO*/
+
+.business-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.title {
+  background-color: cadetblue;
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  color: #ffffff;
+  font-weight: bold;
+
+}
+.info {
+  margin-right: 5%;
+  width: 35%;
+}
+.info p {
+  margin-top: 1rem;
+
 }
