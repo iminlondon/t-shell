@@ -72,3 +72,37 @@ ul {
  margin-top: 10rem;
 margin-right: -2rem;
 }
+
+.service {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+}
+
+.paper {
+  width: 3.5rem;
+  height: auto;
+}
+
+.ruler {
+  width: 5rem;
+  height: auto;
+}
+
+.truck {
+  width: 5rem;
+  height: auto;
+}
+
+div {
+  display: block;
+  text-align: center;
+}
